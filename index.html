@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+<head>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<script src="js/memo.js" type="text/javascript"></script>	
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<meta charset="UTF-8" />
+
+<title>Memo Mai</title>
+</head>
+<body onLoad="zdarzenia.init()">
+<div id="tresc">
+<div id="naglowek">
+To jest gra Memo Mai! 
+</div>
+
+<div id="gracz">
+	<p>Twoje punkty: <span id="pkt">0</span></p>
+	<p>Ilość ruchów: <span id="ruch">0</span></p>
+	<button class="super klawisz zielony" onclick="gra()">GRAJ!</button>
+</div>
+
+<div id="plansza">
+	<table>
+		<tr>
+			<td id="cela00"><img src="img/serduszko.jpg" alt="serduszko" class="karta animk"></td>
+			<td id="cela10"><img src="img/serduszko.jpg" alt="serduszko" class="karta animk"></td>
+			<td id="cela01"><img src="img/serduszko.jpg" alt="serduszko" class="karta animk"></td>
+			<td id="cela11"><img src="img/serduszko.jpg" alt="serduszko" class="karta animk"></td>
+		</tr>
+		<tr>
+			<td id="cela02"><img src="img/serduszko.jpg" alt="serduszko" class="karta animk"></td>
+			<td id="cela12"><img src="img/serduszko.jpg" alt="serduszko" class="karta animk"></td>
+			<td id="cela03"><img src="img/serduszko.jpg" alt="serduszko" class="karta animk"></td>
+			<td id="cela13"><img src="img/serduszko.jpg" alt="serduszko" class="karta animk"></td>
+		</tr>
+		
+	</table>
+</div>
+
+</div>
+<div id="powodzi"> Powodzenia!!! </div>
+<div id="mistrz"> Mistrzostwo! </div>
+<div id="gratki">  Gratulacje! </div>
+</body>
+</html>
