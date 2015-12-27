@@ -3,10 +3,16 @@ body {
 	background-color: #fff;
 }
 
+td {
+
+}
+
 .karta{
 	width: 100%;
 	height: auto;
 	cursor: pointer;
+	
+	border-radius: 10px;
 }
 
 #tresc{
@@ -62,10 +68,15 @@ td{
 	/*padding-top: 1px;
 	padding: 1px;*/
 	border: 1px solid gray;
-	/*background-color: black;*/
+	
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	
 	max-height: 200px;
 	max-width: 125px;
 	width: 24%;
+	background-color: #fff;
 
 }
 	
